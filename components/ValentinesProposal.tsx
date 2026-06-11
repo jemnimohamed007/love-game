@@ -167,7 +167,7 @@ export default function ValentinesProposal({ onComplete }: Props) {
           >
             <p className="text-4xl font-semibold">Thank you for accepting, I love you! 💕</p>
             <p className="text-base mt-4" style={{ color: "#c2607e" }}>
-              Texte me please!!! 💌
+              Text me please!!! 💌
             </p>
             <Image
               src="/hamster_jumping.gif"
@@ -195,7 +195,7 @@ export default function ValentinesProposal({ onComplete }: Props) {
       {showFireworks && (
         <div className="absolute w-full h-full pointer-events-none">
           <Fireworks
-            options={{ autoresize: true, colors: ["#e91e8c", "#f48fb1", "#ff80ab", "#ffcdd2", "#ffffff"] }}
+            options={{ autoresize: true }}
             style={{ width: "100%", height: "100%", position: "absolute", top: 0, left: 0 }}
           />
         </div>
